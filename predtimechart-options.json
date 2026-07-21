@@ -67,12 +67,14 @@
     "initial_as_of": "2026-05-16",
     "current_date": "2026-05-16",
     "models": [
-        "Amanda-XGBoost"
+        "Amanda-XGBoost",
+        "Amanda-ARIMA"
     ],
     "initial_checked_models": [
         "Amanda-XGBoost"
     ],
     "model_urls": {
+        "Amanda-ARIMA": "https://github.com/bleicham/FluSight-SISMID-HumanAI/blob/main/model-metadata/Amanda-ARIMA.yml",
         "Amanda-XGBoost": "https://github.com/bleicham/FluSight-SISMID-HumanAI/blob/main/model-metadata/Amanda-XGBoost.yml"
     },
     "disclaimer": "This is a sandbox forecast visualization. It is not designed to support an operational hub, but instead is designed for benchmarking and research purposes.",
