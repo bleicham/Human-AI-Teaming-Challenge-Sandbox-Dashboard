@@ -15,7 +15,7 @@ on:
         description: "(Forecast) Regenerate previously-recorded model output data?"
         type: boolean
         required: false
-        default: false
+        default: true
       data:
         description: "(Forecast) Which forecast page data should be built?"
         type: choice
@@ -42,7 +42,7 @@ jobs:
       name: '${{ github.event.repository.name }}'
       slug: '${{ github.event.repository.owner.login }}'
       email: '${{ github.event.repository.owner.id }}+${{ github.event.repository.owner.login }}@users.noreply.github.com'
-      regenerate: ${{ inputs.regenerate || false }}
+      regenerate: ${{ github.event_name != 'workflow_dispatch' || inputs.regenerate }}
       build: ${{ inputs.data || 'both' }}
       publish: ${{ inputs.publish || github.event_name == 'schedule' || github.event_name == 'push' }}
     secrets:
