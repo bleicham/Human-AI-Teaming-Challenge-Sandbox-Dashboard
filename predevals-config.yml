@@ -16,6 +16,7 @@ eval_sets:
 - eval_set_name: 2025-2026 Season
   task_filters:
     reference_date:
+    - "2025-09-27"
     - "2025-10-04"
     - "2025-10-11"
     - "2025-10-18"
