@@ -67,15 +67,23 @@
     "initial_as_of": "2026-05-16",
     "current_date": "2026-05-16",
     "models": [
-        "Amanda-XGBoost",
-        "Amanda-ARIMA"
+        "Amanda-ARIMA",
+        "Huan-XGBoostWW",
+        "OMI-ARIMA",
+        "SR-XGBoost",
+        "Yiwen-ARIMA",
+        "cc-XGBHybrid"
     ],
     "initial_checked_models": [
         "Amanda-XGBoost"
     ],
     "model_urls": {
         "Amanda-ARIMA": "https://github.com/bleicham/FluSight-SISMID-HumanAI/blob/main/model-metadata/Amanda-ARIMA.yml",
-        "Amanda-XGBoost": "https://github.com/bleicham/FluSight-SISMID-HumanAI/blob/main/model-metadata/Amanda-XGBoost.yml"
+        "cc-XGBHybrid": "https://github.com/bleicham/FluSight-SISMID-HumanAI/blob/main/model-metadata/cc-XGBHybrid.yml",
+        "SR-XGBoost": "https://github.com/bleicham/FluSight-SISMID-HumanAI/blob/main/model-metadata/sukhyun-XGBoost.yml",
+        "Yiwen-ARIMA": "https://github.com/bleicham/FluSight-SISMID-HumanAI/blob/main/model-metadata/Yiwen-ARIMA.yml",
+        "Huan-XGBoostWW": "https://github.com/bleicham/FluSight-SISMID-HumanAI/blob/main/model-metadata/Huan-XGBoostWW.yml",
+        "OMI-ARIMA": "https://github.com/bleicham/FluSight-SISMID-HumanAI/blob/main/model-metadata/OMI-ARIMA.yml"
     },
     "disclaimer": "This is a sandbox forecast visualization. It is not designed to support an operational hub, but instead is designed for benchmarking and research purposes.",
     "initial_xaxis_range": [
