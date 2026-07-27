@@ -68,6 +68,7 @@
     "initial_as_of": "2026-05-23",
     "current_date": "2026-05-23",
     "models": [
+        "Amanda-ARIMA",
         "DKCDC-XGBoost",
         "Gihani-ARIMA",
         "Gihani-XGBoost",
@@ -82,6 +83,7 @@
     ],
     "model_urls": {
         "DKCDC-XGBoost": "https://github.com/bleicham/FluSight-SISMID-HumanAI/blob/main/model-metadata/DKCDC-XGBoost.yml",
+        "Amanda-ARIMA": "https://github.com/bleicham/FluSight-SISMID-HumanAI/blob/main/model-metadata/Amanda-ARIMA.yml",
         "cc-XGBHybrid": "https://github.com/bleicham/FluSight-SISMID-HumanAI/blob/main/model-metadata/cc-XGBHybrid.yml",
         "Gihani-XGBoost": "https://github.com/bleicham/FluSight-SISMID-HumanAI/blob/main/model-metadata/Gihani-XGBoost.yml",
         "SR-XGBoost": "https://github.com/bleicham/FluSight-SISMID-HumanAI/blob/main/model-metadata/sukhyun-XGBoost.yml",
